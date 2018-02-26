@@ -21,4 +21,11 @@
 - X Update the styles for forms
 
 ## Refactor TODOS:
-- Rafactor user association integration test in post_spec
+- Refactor user association integration test in post_spec
+
+## Approval TODOS:
+- Status to Post
+- Status Required
+- Status Default
+- Implement Approval Stages
+- Locking when approved
