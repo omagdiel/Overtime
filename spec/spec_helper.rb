@@ -1,12 +1,15 @@
-module FakeSms
-  Message = Struct.new(:message, :message)
-  @messages = []
-
-  def self.send_sms(number:, message:)
-    @messages << Message.new(number, message)
+RSpec.configure do |config|
+  config.expect_with :rspec do |expectations|
+    expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
 
-  def self.messages
-    @messages
+  config.mock_with :rspec do |mocks|
+    mocks.verify_partial_doubles = true
   end
+
+  config.before(:each) do
+    stub_const("SmsTool", FakeSms)
+  end
+
+  config.shared_context_metadata_behavior = :apply_to_host_groups
 end
