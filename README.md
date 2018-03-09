@@ -22,5 +22,8 @@
 - Update buttons to include time span
 - Update button sort order on employee homepage
 - Remove unnecessary nav bar buttons for managers
+- fix admin dashboard bug
+- Implement Honeybadger
+- Implement 
 
 ## TODOS:
