@@ -10,10 +10,12 @@
 
 ## Features:
 - X Approval Workflow
-- SMS Sending -> link to approval or overtime input
+- X SMS Sending -> link to approval or overtime input
 - x Administrate admin dashboard
 - x Block non admin and guest users
-- Email summary to managers for approval
-- Needs to be documented if employee did not log overtime
+- X Email summary to managers for approval
+- X Needs to be documented if employee did not log overtime
+- Create audit log for each text message
+- Need to update end_date when confirmed
 
 ## TODOS:
