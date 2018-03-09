@@ -18,9 +18,9 @@
 - X Create audit log for each text message
 - X Need to update end_date when confirmed
 - X Need to update audit log status when a post has been rejected
-- Update buttons on employee homepage so they show on mobile
-- Update buttons to include time span
-- Update button sort order on employee homepage
+- X Update buttons on employee homepage so they show on mobile
+- X Update buttons to include time span
+- X Update button sort order on employee homepage
 - Remove unnecessary nav bar buttons for managers
 - fix admin dashboard bug
 - Implement Honeybadger
