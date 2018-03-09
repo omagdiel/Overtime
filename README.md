@@ -21,8 +21,8 @@
 - X Update buttons on employee homepage so they show on mobile
 - X Update buttons to include time span
 - X Update button sort order on employee homepage
-- Remove unnecessary nav bar buttons for managers
-- fix admin dashboard bug
+- X Remove unnecessary nav bar buttons for managers
+- X Fix admin dashboard bug
 - Implement Honeybadger
 - Implement
 
